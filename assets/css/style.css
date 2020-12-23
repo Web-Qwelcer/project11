@@ -1,0 +1,238 @@
+body {
+    color: #000;
+    background-color:  #E2E2E2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    color: #333;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+}
+
+button {
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #999;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    display: inline-block;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav a:hover {
+    background-color:  #005580;
+}
+
+.heading a {
+    color: #006699;
+    text-decoration: none;
+}
+
+.heading p {
+    font-size: 12px;
+    font-style: italic;
+    margin: 5px 0 15px;
+}
+
+.content img {
+    width: 186px;
+    height: 140px;
+    margin: 3px 25px 25px 3px;
+    border: 5px solid #BDBDBD;
+    float: left;
+
+}
+
+.content p {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 25px;
+}
+
+.more a {
+    color: #808080;
+    padding: 5px 15px;
+    text-decoration: none;
+    background-color: #E4E4E4;
+}
+
+.more a:hover {
+    color: #fff;
+    background-color: #006699;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    height: 145px;
+    background: url(https://dd.zerotheme.com/demo/zero555/zResponsive/images/bg-header.png) repeat-x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .row {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.branding {
+    width: auto;
+    height: auto;
+}
+
+.search {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    width: 1000px;
+    padding: 10px 0;
+    margin: 25px auto;
+    background-color: #006699;
+}
+
+.content_container {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    background-color: #fff;
+}
+
+.main_content {
+    width: 640px;
+    height: auto;
+    margin: 10px;
+}
+
+.sidebar {
+    width: 320px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 20px;
+    height: 7px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: #000;
+    opacity: .7;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.bar:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 25%;
+    transition: all 3s ease;
+}
+
+#r1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+    margin-left: -25%;
+}
+
+#r3:checked ~ .s1 {
+    margin-left: -50%;
+}
+
+#r4:checked ~ .s1 {
+    margin-left: -75%;
+}
+
+.block_content {
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+}
+
+.heading {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    width: auto;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+
+.more {
+    font-size: 12px;
+    font-weight: bold;
+}
