@@ -40,30 +40,28 @@ li {
 }
 
 .nav a:hover {
-    background-color:  #005580;
+    background-color:#005580;
 }
 
-.heading a {
+.block_content .heading a {
     color: #006699;
     text-decoration: none;
 }
 
-.heading p {
+.block_content .heading p {
     font-size: 12px;
     font-style: italic;
     margin: 5px 0 15px;
 }
 
-.content img {
-    width: 186px;
-    height: 140px;
-    margin: 3px 25px 25px 3px;
+.block_content .content img {
+    margin: 3px 25px 0 3px;
     border: 5px solid #BDBDBD;
     float: left;
 
 }
 
-.content p {
+.block_content .content p {
     font-size: 14px;
     font-style: normal;
     line-height: 25px;
@@ -84,6 +82,54 @@ li {
 .slide img {
     width: 100%;
     height: 100%;
+}
+
+.sidebar .content a {
+    color: #006699;
+    text-decoration: none;
+}
+
+.sidebar .list li {
+    padding: 0 0 5px 15px;
+    background: url(https://dd.zerotheme.com/demo/zero555/zResponsive/images/marker-1.gif) 0 11px no-repeat;
+}
+
+.sidebar .list a {
+    color: #292929;
+}
+
+.sidebar .list a:hover {
+    color: #006699;
+}
+
+#content img {
+    margin: 5px 5px 0 0;
+    border: 5px solid #BDBDBD;
+    float: left;
+}
+
+.footer .content a {
+    color: #006699;
+    text-decoration: none;
+}
+
+.footer .list li {
+    display: list-item;
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.footer .list a {
+    color: #fff;
+}
+
+.footer .list a:hover {
+    color: #006699;
+}
+
+.footer .content img {
+    margin: 0 10px 5px 0;
+    border: 5px solid #fff;
 }
 
 .wrapper {
@@ -120,31 +166,31 @@ li {
 }
 
 .nav {
-    width: 1000px;
+    width: 960px;
     padding: 10px 0;
-    margin: 25px auto;
+    margin: 15px auto;
     background-color: #006699;
 }
 
 .content_container {
-    width: 1000px;
+    width: 960px;
     height: auto;
     margin: auto;
-    display: flex;
+    margin-bottom: 25px;
     background-color: #fff;
+    display: flex;
 }
 
 .main_content {
     width: 640px;
     height: auto;
-    margin: 10px;
+    margin: 20px 10px;
 }
 
 .sidebar {
-    width: 320px;
+    width: 280px;
     height: auto;
-    margin: 10px;
-    border: 1px solid red;
+    margin: 20px 10px;
 }
 
 .slider {
@@ -216,17 +262,17 @@ input[name="r"] {
     margin: 25px 0;
 }
 
-.heading {
+.block_content .heading {
     width: 100%;
     height: auto;
 }
 
-.content {
+.block_content .content {
     width: auto;
     height: auto;
 }
 
-.container {
+.block_content .container {
     width: 100%;
     height: auto;
     text-align: right;
@@ -235,4 +281,58 @@ input[name="r"] {
 .more {
     font-size: 12px;
     font-weight: bold;
+}
+
+.sidebar .container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.sidebar .heading {
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 10px 10px 50px;
+    background: #006699 url(https://dd.zerotheme.com/demo/zero555/zResponsive/images/boxtitle.png) no-repeat left center;
+}
+
+.sidebar .content {
+    font-size: 14px;
+    line-height: 25px;
+    padding: 15px;
+}
+
+.sidebar #content {
+    padding: 0;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 25px 0;
+    background-color: #292929;
+}
+
+.footer .row {
+    width: 960px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container {
+    color: #fff;
+    width: 300px;
+    height: auto;
+}
+
+.footer .heading {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer .content {
+    font-size: 14px;
+    line-height: 25px;
 }
