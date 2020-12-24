@@ -51,7 +51,7 @@ li {
 .block_content .heading p {
     font-size: 12px;
     font-style: italic;
-    margin: 5px 0 15px;
+    margin: 5px 0;
 }
 
 .block_content .content img {
@@ -132,11 +132,6 @@ li {
     border: 5px solid #fff;
 }
 
-.wrapper {
-    width: 100%;
-    height: auto;
-}
-
 .header {
     width: 100%;
     height: 145px;
@@ -148,19 +143,12 @@ li {
 
 .header .row {
     width: 1000px;
-    height: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.branding {
-    width: auto;
-    height: auto;
-}
-
 .search {
     width: auto;
-    height: auto;
     display: flex;
     align-items: center;
 }
@@ -174,7 +162,6 @@ li {
 
 .content_container {
     width: 960px;
-    height: auto;
     margin: auto;
     margin-bottom: 25px;
     background-color: #fff;
@@ -183,13 +170,11 @@ li {
 
 .main_content {
     width: 640px;
-    height: auto;
     margin: 20px 10px;
 }
 
 .sidebar {
     width: 280px;
-    height: auto;
     margin: 20px 10px;
 }
 
@@ -258,34 +243,30 @@ input[name="r"] {
 
 .block_content {
     width: 100%;
-    height: auto;
     margin: 25px 0;
 }
 
 .block_content .heading {
     width: 100%;
-    height: auto;
 }
 
 .block_content .content {
     width: auto;
-    height: auto;
 }
 
 .block_content .container {
     width: 100%;
-    height: auto;
     text-align: right;
 }
 
 .more {
     font-size: 12px;
     font-weight: bold;
+    margin: 10px 0;
 }
 
 .sidebar .container {
     width: 100%;
-    height: auto;
     margin-bottom: 20px;
 }
 
@@ -308,14 +289,12 @@ input[name="r"] {
 
 .footer {
     width: 100%;
-    height: auto;
     padding: 25px 0;
-    background-color: #292929;
+    background-color: #3F3F3F;
 }
 
 .footer .row {
     width: 960px;
-    height: auto;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -324,7 +303,6 @@ input[name="r"] {
 .footer .container {
     color: #fff;
     width: 300px;
-    height: auto;
 }
 
 .footer .heading {
@@ -335,4 +313,19 @@ input[name="r"] {
 .footer .content {
     font-size: 14px;
     line-height: 25px;
+}
+
+.copyright {
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    background: url(https://dd.zerotheme.com/demo/zero555/zResponsive/images/bg-footer.png);
+}
+
+.copyright a {
+    color: #006699;
+    text-decoration: none;
 }
